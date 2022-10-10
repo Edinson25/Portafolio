@@ -1,0 +1,42 @@
+/* Slider animacion  Libreria*/
+ .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .imgBx .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width:  100px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .imgBx .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+   /* .imgBx{
+      width: 100px;
+      display: flex;
+      justify-content: flex-end;
+  } */
+
+   .imgBx  img{
+    max-width: 250px;
+  }
+
+  .swiper-slide img{
+      position: relative;
+      bottom: 0;
+      max-height: 200px;
+      z-index: 50;
+  }
+
+  .swiper-3d .swiper-slide-shadow-right,
+  .swiper-3d .swiper-slide-shadow-left {
+    background-image: none !important;
+} 
