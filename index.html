@@ -20,38 +20,38 @@
     
 
     <div class="container">
-        <div class="row">
+        <div class="row  banner" id="banner">
 
             <!--! navbar  -->
 
             <div class="col-12">
-                <nav class="navbar navbar-expand-lg bg-light my-0 my-lg-3" data-aos="fade-down" data-aos-duration="1500">
+                <nav class="navbar navbar-expand-lg bg-transparent my-0 my-lg-3" data-aos="fade-down" data-aos-duration="1500">
                     <div class="container-fluid">
                         <a class="navbar-brand logo-nav" >Edinson M.</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav ms-lg-auto">
 
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <li class="nav-item mx-lg-2">
+                                <a class="nav-link" aria-current="page" href="#banner">Home</a>
                             </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                            <li class="nav-item mx-lg-2">
+                                <a class="nav-link" href="#about">About</a>
                             </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Skills</a>
+                            <li class="nav-item mx-lg-2">
+                                <a class="nav-link" href="#skills">Skills</a>
                             </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link ">Proyects</a>
+                            <li class="nav-item mx-lg-2">
+                                <a class="nav-link " href="#proyects">Proyects</a>
                             </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link ">Contact</a>
+                            <li class="nav-item mx-lg-2">
+                                <a class="nav-link " href="#contact">Contact</a>
                             </li>
                         </ul>
                         </div>
@@ -61,13 +61,15 @@
 
             <!-- !end navbar -->
 
+            
             <div class="row d-flex align-items-center justify-content-center">
                 <div class="col-12 col-lg-6 ">
-                    <div class="card" data-aos="fade-right" data-aos-duration="2000">
+                    <div class="card " data-aos="fade-right" data-aos-duration="2000">
                         <img src="img/logo-programmer.webp" class="card-img-bottom" alt="...">
                     </div>
                 </div>
-                <div class="col-12 col-lg-6">
+
+                <div class="col-12 col-lg-6 ">
                     <div class="card" data-aos="fade-left" data-aos-duration="3000">
 
                         <div class="card-body">
@@ -75,25 +77,29 @@
                           <h1 class="principal-title v2"></h1>        
                         </div>
                         
-                      </div>
+                    </div>
                 </div>
             </div>
-
         </div>
     
 
         <!--? about section -->
 
-        <div class="row">
-            <div class="col-12 col-lg-6">
+        <div class="row about" id="about">
+            <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="card-body border ">
+                    <img src="img/svg/burble.svg" alt="" class="prueba">
+                    
+                
+                </div>
 
             </div>
-            <div class="col-12 col-lg-6">
-                <div class="card" style="width: 100%;">
+            <div class="col-12 col-lg-6 d-flex align-items-center justify-content-center">
+                <div class="card border" style="width: 100%;">
                     <div class="card-body">
                         <h5 class="card-title">Sobre mí.</h5>
                     
-                        <p class="card-text">Te presento algunas habilidades o conocimientos que tengo en mi aventura como desarrollador frontend 😁, he trabajado con diferentes herramientas a lo largo de los proyectos que he tenido laboralmente como lo son paginas o aplicativos web, aplicaciones para smart tv o android, tengo que admitir que no en todos los lenguajes soy un experto pero en algun momento si tuve que implementar algunos lenguajes de programación para la realización de mis proyectos personales y laborales. </p>
+                        <p class="card-text ">Hey Soy Edinson! Un apasionado por la programación a el cual le encanta aprender cosas nuevas constantemente como lo son lenguajes, trucos nuevos, además que con el poco tiempo he logrado conocer gente nueva y aprender bastante de ellos, pero basta de contarte de mi rama te voy a contar un poco de mi vida, me gustan los videojuegos, la tecnologia, las motos y carros, viajar y tener nuevas experiencias.</p>
                     
                     </div>
                 </div>
@@ -112,10 +118,10 @@
         <!--* skills section  -->
         
         
-        <div class="row">
-            <div class="col-12 col-lg-6">
+        <div class="row skills" id="skills">
+            <div class="col-12 col-lg-6 d-flex align-items-center">
                 
-                <div class="card" style="width: 100%;">
+                <div class="card border" style="width: 100%;">
                         <div class="card-body">
                           <h5 class="card-title">Mis habilidades.</h5>
                           
@@ -126,7 +132,7 @@
 
                 </div>
                 
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 d-flex align-items-center">
 
                     <div class="card" style="width: 100%;">
                         <div class="card-body imgBx">
@@ -178,13 +184,14 @@
                     
 
             </div>
+        </div>
 
             <!--*end  skills section  -->
             
             <!--TODO proyects section  -->
     
-            <div class="row">
-                <div class="col-12">
+            <div class="row proyects" id="proyects">
+                <div class="col-12 mb-0 mb-lg-5">
                     <div class="card" style="width: 100%;">
                         <div class="card-body">
                             <h5 class="card-title text-center">Mis proyectos.</h5>
@@ -193,165 +200,142 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/pelisfree.png" class="card-img-top" alt="...">
+                <div class="col-12 d-flex flex-wrap align-items-center justify-content-center">
+                    <div class="card mx-lg-3" style="width: 15rem;">
+                        <img src="img/pelisfree.png" class="card-img-top img-proyect" alt="...">
                         <div class="card-body d-flex align-items-center justify-content-center ">
                             <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
                             <a href="#" class="card-link"><ion-icon name="globe-outline"></ion-icon></a>
                         </div>
-                    </div>
-
-                </div>
-
-                <div class="col-12 col-lg-3">
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/starbucks.png" class="card-img-top" alt="...">
-                        <div class="card-body">
+                      </div>
+                      <div class="card mx-3" style="width: 15rem;">
+                        <img src="img/starbucks.png" class="card-img-top img-proyect" alt="...">
+                        <div class="card-body d-flex aling-items-center justify-content-center">
                             <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
                             <a href="#" class="card-link"><ion-icon name="globe-outline"></ion-icon></a>
                         </div>
-                    </div>
-
-                </div>
-
-                <div class="col-12 col-lg-3">
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/coca-cola.png" class="card-img-top" alt="...">
-                        <div class="card-body">
+                      </div>
+                      <div class="card mx-3" style="width: 15rem;">
+                        <img src="img/coca-cola.png" class="card-img-top img-proyect" alt="...">
+                        <div class="card-body d-flex aling-items-center justify-content-center">
                             <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
                             <a href="#" class="card-link"><ion-icon name="globe-outline"></ion-icon></a>
                         </div>
-                    </div>
-
-                </div>
-
-                <div class="col-12 col-lg-3">
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/apple.png" class="card-img-top" alt="...">
-                        <div class="card-body">
+                      </div>
+                      <div class="card mx-3" style="width: 15rem;">
+                        <img src="img/apple.png" class="card-img-top img-proyect" alt="...">
+                        <div class="card-body d-flex aling-items-center justify-content-center">
                             <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
                             <a href="#" class="card-link"><ion-icon name="globe-outline"></ion-icon></a>
                         </div>
-                    </div>
-                </div>
+                      </div>
 
-                <div class="col-12 col-lg-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/pelisfree.png" class="card-img-top" alt="...">
-                        <div class="card-body d-flex align-items-center justify-content-center ">
+                      <div class="card mx-3" style="width: 15rem;">
+                        <img src="img/apple.png" class="card-img-top img-proyect" alt="...">
+                        <div class="card-body d-flex aling-items-center justify-content-center">
                             <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
                             <a href="#" class="card-link"><ion-icon name="globe-outline"></ion-icon></a>
                         </div>
-                    </div>
+                      </div>
 
-                </div>
-
-                <div class="col-12 col-lg-3">
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/starbucks.png" class="card-img-top" alt="...">
-                        <div class="card-body">
+                      <div class="card mx-3" style="width:15rem;">
+                        <img src="img/apple.png" class="card-img-top img-proyect" alt="...">
+                        <div class="card-body d-flex aling-items-center justify-content-center">
                             <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
                             <a href="#" class="card-link"><ion-icon name="globe-outline"></ion-icon></a>
                         </div>
-                    </div>
+                      </div>
 
-                </div>
-
-                <div class="col-12 col-lg-3">
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/coca-cola.png" class="card-img-top" alt="...">
-                        <div class="card-body">
+                      <div class="card mx-3" style="width: 15rem;">
+                        <img src="img/apple.png" class="card-img-top img-proyect" alt="...">
+                        <div class="card-body d-flex aling-items-center justify-content-center">
                             <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
                             <a href="#" class="card-link"><ion-icon name="globe-outline"></ion-icon></a>
                         </div>
-                    </div>
+                      </div>
 
-                </div>
-
-                <div class="col-12 col-lg-3">
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/apple.png" class="card-img-top" alt="...">
-                        <div class="card-body">
+                      <div class="card mx-3" style="width: 15rem;">
+                        <img src="img/apple.png" class="card-img-top img-proyect" alt="...">
+                        <div class="card-body  d-flex aling-items-center justify-content-center">
                             <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
                             <a href="#" class="card-link"><ion-icon name="globe-outline"></ion-icon></a>
                         </div>
-                    </div>
-                </div>
+                      </div>
 
-                <div class="col-12 col-lg-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/pelisfree.png" class="card-img-top" alt="...">
-                        <div class="card-body d-flex align-items-center justify-content-center ">
+                      <div class="card mx-3" style="width: 15rem;">
+                        <img src="img/apple.png" class="card-img-top img-proyect" alt="...">
+                        <div class="card-body d-flex aling-items-center justify-content-center">
                             <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
                             <a href="#" class="card-link"><ion-icon name="globe-outline"></ion-icon></a>
                         </div>
-                    </div>
+                      </div>
 
-                </div>
-
-                <div class="col-12 col-lg-3">
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/starbucks.png" class="card-img-top" alt="...">
-                        <div class="card-body">
+                      <div class="card mx-3" style="width: 15rem;">
+                        <img src="img/apple.png" class="card-img-top img-proyect" alt="...">
+                        <div class="card-body d-flex aling-items-center justify-content-center">
                             <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
                             <a href="#" class="card-link"><ion-icon name="globe-outline"></ion-icon></a>
                         </div>
-                    </div>
-
+                      </div>
+                      
                 </div>
-
-                <div class="col-12 col-lg-3">
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/coca-cola.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
-                            <a href="#" class="card-link"><ion-icon name="globe-outline"></ion-icon></a>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-12 col-lg-3">
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/apple.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
-                            <a href="#" class="card-link"><ion-icon name="globe-outline"></ion-icon></a>
-                        </div>
-                    </div>
-                </div>
-                
             </div>
+
+
+
+
     
     
             <!--TODO end proyects section  -->
 
             <!--! contact section -->
             
-            <div class="row">
+            <div class="row contact" id="contact">
 
-                <div class="col-12 col-lg-6">
-
+                <div class="col-12 col-lg-6 d-flex align-items-center">
+                    <div class="card" style="width: 8rem;">
+                        <div class="card-body">
+                          <div class="circle">
+                            <ion-icon name="logo-github" class="redes"></ion-icon>
+                          </div>
+                          
+                    </div>
+                      </div>
+                      <div class="card" style="width: 8rem;">
+                        <div class="card-body">
+                            <div class="circle">
+                                <ion-icon name="logo-linkedin" class="redes"></ion-icon>
+                              </div>
+                         
+                        </div>
+                      </div>
+                      <div class="card" style="width: 8rem;">
+                        <div class="card-body">
+                            <div class="circle">
+                                <ion-icon name="call-outline" class="redes"></ion-icon>
+                              </div>
+                          
+                        </div>
+                      </div>
+                      <div class="card" style="width: 8rem;">
+                        <div class="card-body">
+                            <div class="circle">
+                                <ion-icon name="mail-outline" class="redes"></ion-icon>
+                              </div>
+                         
+                        </div>
+                      </div>
                     
                 </div>
 
 
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 border-danger d-flex align-items-center">
+                    
 
                     <div class="card-body border">
-                        <h5 class="card-title">Sobre mí.</h5>
+                        <h5 class="card-title">Información</h5>
                     
-                        <p class="card-text">Te presento algunas habilidades o conocimientos que tengo en mi aventura como desarrollador frontend 😁, he trabajado con diferentes herramientas a lo largo de los proyectos que he tenido laboralmente como lo son paginas o aplicativos web, aplicaciones para smart tv o android, tengo que admitir que no en todos los lenguajes soy un experto pero en algun momento si tuve que implementar algunos lenguajes de programación para la realización de mis proyectos personales y laborales. </p>
+                        <p class="card-text">Aqui te encontraras con mis redes sociales donde encontraras las diversas plataformas donde normalmente se busca trabajo (Computrabajo, El Empleo, LinkedIn), tambien veras mi telefono y mi correo electronico por si quieres contactarme! :)</p>
                     
                     </div>
                 </div>
