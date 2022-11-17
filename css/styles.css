@@ -19,7 +19,6 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid blue;
     
 }
 
@@ -51,21 +50,19 @@ html{
 }
 
 .about{
-    border: 1px solid red;
+    
     height: 100vh;
 }
 
 .skills{
-    border: 1px solid green;
+    
     height: 70vh;
 }
 
-.proyects{
-    border: 1px solid purple;
-}
+
 
 .contact{
-    border: 1px solid orangered;
+    
     height: 70vh;
 }
 
@@ -124,7 +121,7 @@ ion-icon{
 footer{
     position: relative;
     width: 100%;
-    background: #8A3FFC;
+    background: var(--p-color);
     min-height: 100px;
     padding: 20px 50px;
 }
@@ -250,5 +247,17 @@ footer .wave#wave4{
 .logoPrincipal {
  
     width: 350px;
+}
+
+.circle {
+    width: 48px;
+    height: 50px;
+}
+
+.redesCell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
 }
 }
